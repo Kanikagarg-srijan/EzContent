@@ -1,4 +1,4 @@
-package com.qa.base;
+package com.qa.waits;
 
 import java.util.concurrent.TimeUnit;
 
