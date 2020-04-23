@@ -19,7 +19,7 @@ public static WebDriver driver;
 	public static void explicit_visible(WebDriver driver, WebElement element, int timeout, String value)
 	{
 		new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
-		element.sendKeys(value);
+		
 		
 	}
 		
@@ -27,7 +27,7 @@ public static WebDriver driver;
 	public static void explicit_clickable(WebDriver driver, WebElement element, int timeout)
 	{
 		new WebDriverWait(driver, timeout).until(ExpectedConditions.elementToBeClickable(element));
-		element.click();
+		
 		
 	}
 		

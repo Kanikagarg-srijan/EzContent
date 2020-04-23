@@ -21,16 +21,13 @@ public class TestBase {
 	
 		public TestBase() throws IOException 
 		{
+			
 		
-			
-			prop = new Properties();
-			
-			FileInputStream ip = new FileInputStream("/Users/priyanka.sahni/eclipse-workspace/EzContent/src/main/java/com/qa/config/config.properties");
-					
+			String filePath = System.getProperty("user.dir") + "/EzContent/src/main/java/com/qa/config/config.properties";
+			System.out.println(filePath);
+			prop =new Properties();
+			FileInputStream ip = new FileInputStream(filePath);
 			prop.load(ip);
-			System.out.println(prop.getProperty("browser"));
-			
-		
 			
 		}
 		
@@ -58,9 +55,6 @@ public class TestBase {
 			
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
-			
-			driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-			
 			driver.get(prop.getProperty("url"));
 			}
 		
