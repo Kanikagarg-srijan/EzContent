@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11878" started-at="2020-04-24T07:31:25Z" finished-at="2020-04-24T07:31:37Z">
+  <suite name="Default suite" duration-ms="52673" started-at="2020-04-24T08:34:24Z" finished-at="2020-04-24T08:35:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11878" started-at="2020-04-24T07:31:25Z" finished-at="2020-04-24T07:31:37Z">
+    <test name="Default test" duration-ms="52673" started-at="2020-04-24T08:34:24Z" finished-at="2020-04-24T08:35:17Z">
       <class name="com.qa.testscripts.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="5772" started-at="2020-04-24T07:31:25Z" finished-at="2020-04-24T07:31:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="setup" is-config="true" duration-ms="45131" started-at="2020-04-24T08:34:24Z" finished-at="2020-04-24T08:35:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="loginPageTitleTest" duration-ms="54" started-at="2020-04-24T07:31:31Z" finished-at="2020-04-24T07:31:31Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="loginPageTitleTest" duration-ms="38" started-at="2020-04-24T08:35:09Z" finished-at="2020-04-24T08:35:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="drupalLogoImageTest()[pri:2, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="drupalLogoImageTest" duration-ms="50" started-at="2020-04-24T07:31:31Z" finished-at="2020-04-24T07:31:31Z">
+        <test-method status="PASS" signature="drupalLogoImageTest()[pri:2, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="drupalLogoImageTest" duration-ms="44" started-at="2020-04-24T08:35:09Z" finished-at="2020-04-24T08:35:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- drupalLogoImageTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="loginTest" duration-ms="5839" started-at="2020-04-24T07:31:31Z" finished-at="2020-04-24T07:31:37Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="loginTest" duration-ms="7340" started-at="2020-04-24T08:35:09Z" finished-at="2020-04-24T08:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="closeBrowser" is-config="true" duration-ms="95" started-at="2020-04-24T07:31:37Z" finished-at="2020-04-24T07:31:37Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testscripts.LoginPageTest@685cb137]" name="closeBrowser" is-config="true" duration-ms="98" started-at="2020-04-24T08:35:17Z" finished-at="2020-04-24T08:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
