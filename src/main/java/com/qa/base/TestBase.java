@@ -3,8 +3,6 @@ package com.qa.base;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,7 +21,7 @@ public class TestBase {
 		{
 			
 		
-			String filePath = System.getProperty("user.dir") + "/EzContent/src/main/java/com/qa/config/config.properties";
+			String filePath = System.getProperty("user.dir") + "/src/main/java/com/qa/config/config.properties";
 			System.out.println(filePath);
 			prop =new Properties();
 			FileInputStream ip = new FileInputStream(filePath);
@@ -59,7 +57,10 @@ public class TestBase {
 			}
 		
 		
-		
+		public void teardown()
+		{
+			driver.quit();
+		}
 		
 
 
